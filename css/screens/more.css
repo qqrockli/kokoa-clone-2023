@@ -1,0 +1,55 @@
+.user-component__subtitle i {
+    color: red;
+}
+.more-screen .icon-row {
+    margin-top: 35px;
+}
+.more-screen .icon-row__icon {
+    position: relative;
+}
+.more-point {
+    background-color: tomato;
+    width: 5px;
+    height: 5px;
+    border-radius: 4px;
+    position: absolute;
+    right: 20px;
+    top: -20px;
+}
+.suggestions {
+    margin-top: 50px;
+    border-top: var(--main-border);
+    padding-top: 25px;
+}
+.suggestions-icons {
+    padding-top: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0px 5px;
+}
+.suggestions-icons__icon {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 25%;
+}
+.suggestions-icons__icon i{
+    width: 60px;
+    height: 60px;
+    background-color: var(--yellow);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+}
+.suggestions-icons__icon span{
+    margin-top: 18px;
+    color: rgba(0, 0, 0, 0.6);
+}
+.suggestions h2 {
+    font-size: 18px;
+    font-weight: 600;
+}

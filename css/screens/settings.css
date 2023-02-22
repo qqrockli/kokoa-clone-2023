@@ -1,0 +1,32 @@
+.settings__setting {
+    padding: 20px 0;
+    border-bottom:  1px solid rgba(0, 0, 0, 0.1);
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.settings__setting i {
+    font-size: 22px;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+    color: rgba(0, 0, 0, 0.6); 
+}
+.settings__setting span {
+    margin-right: 10px;
+}
+.settings__setting-column {
+    display: flex;
+}
+.settings__setting-column:last-child {
+    opacity: 0.5;
+}
+.settings__setting:last-child {
+    border-bottom: none;
+}
+.main-screen-line {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    margin: 20px 0;
+}
